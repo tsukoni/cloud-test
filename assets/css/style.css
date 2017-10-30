@@ -1,0 +1,94 @@
+
+.container-fluid {
+    width: 90%;
+    height: auto;
+    background: url(../images/lion_king.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.row {
+    margin-bottom: 2rem;
+}
+
+.customBox {
+    border: .5rem solid #66aede;
+    border-radius: .5rem;
+    padding: 1rem;
+    background-color: rgba(255,255,255,0.4);
+}
+
+.panel {
+    background-color: #66aede;
+    color: white;
+    height: 80px;
+    text-align: center;
+}
+
+.drag {
+    margin: auto;
+    border: 2px dotted #66aede;
+    /*color: #92AAB0;*/
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 200%;
+    background-color: rgba(255,255,255,0.4);
+    display: table;
+    width: 100%;
+  }
+
+  .uploadWanted {
+    height: 300px;
+  }
+
+  .dropInfo{
+    margin: auto;
+    padding: 1rem;
+    font-weight: 700;
+  }
+
+  .upload {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .uploadLabel {
+    font-size: 1em;
+    font-weight: 700;
+    margin:auto;
+    display: inline-block;
+  }
+
+  .upload:focus+label,
+  .uploadLabel:hover {
+    color: #657579;
+  }
+
+  .uploadBox {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .imageCloud {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .linkBtn {
+    background-color: rgba(102, 174, 222, 0.6);
+  }
+
+  .linkBtn:hover {
+    background-color: rgba(102, 174, 222, 0.8);
+  }
+
+#cloud-type {}
+
+#cloud-fact {}
